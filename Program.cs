@@ -6,13 +6,12 @@ namespace HodMinci
     {
         static void Main(string[] args)
         {
-            Console.ReadLine();
             Random r = new Random();
             int coin;
             int count = 0;
             bool hit = false;
             double u = 0;
-            double y = 10_000;
+            double y = 10_000_000;
             for (int i = 0; i < y; i++)
             {
                 for (int x = 0; x < 100; x++)
